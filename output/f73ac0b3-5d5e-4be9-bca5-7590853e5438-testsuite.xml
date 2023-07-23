@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690135862892' stop='1690135863571'>
+    <name>Login:</name>
+    <title>Login:</title>
+    <test-cases>
+        <test-case start='1690135862908' status='failed' stop='1690135863160'>
+            <name>validate Empety E-mail On Create Account</name>
+            <title>validate Empety E-mail On Create Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1690135863129' status='failed' stop='1690135863159'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='9a619f36-63c9-4086-b08f-6560b417f245-attachment.png' type='image/png' size='5320'/>
+            </attachments>
+            <failure>
+                <message>page.goto: net::ERR_INTERNET_DISCONNECTED at http://www.automationpractice.pl/index.php
+                =========================== logs ===========================
+                navigating to "http://www.automationpractice.pl/index.php", waiting until "load"
+                ============================================================</message>
+                <stack-trace>page.goto: net::ERR_INTERNET_DISCONNECTED at http://www.automationpractice.pl/index.php
+                =========================== logs ===========================
+                navigating to "http://www.automationpractice.pl/index.php", waiting until "load"
+                ============================================================
+                    at Playwright.amOnPage (C:\Users\acer\Desktop\projetos-de-automacao\auto_codeceptjs_webdriver_playwright\node_modules\codeceptjs\lib\helper\Playwright.js:864:21)
+                    at Step.run (C:\Users\acer\Desktop\projetos-de-automacao\auto_codeceptjs_webdriver_playwright\node_modules\codeceptjs\lib\step.js:122:47)
+                    at C:\Users\acer\Desktop\projetos-de-automacao\auto_codeceptjs_webdriver_playwright\node_modules\codeceptjs\lib\actor.js:135:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

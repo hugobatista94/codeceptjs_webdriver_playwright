@@ -1,0 +1,27 @@
+
+
+<<< Recorded commands on Mon Jul 17 2023 14:37:42 GMT-0300 (Horário Padrão de Brasília)
+I.click('.login')
+I.wait(5)
+I.click('#SubmitCreate')
+I.waitForText('Invalid email address.')
+
+<<< Recorded commands on Mon Jul 17 2023 15:29:30 GMT-0300 (Horário Padrão de Brasília)
+I.click('.login')
+I.wait(5)
+I.click('#SubmitCreate')
+I.waitForText('Invalid email address.'
+I.waitForText('Invalid email address.')
+
+<<< Recorded commands on Fri Jul 21 2023 15:24:23 GMT-0300 (Horário Padrão de Brasília)
+I.click('.login')
+
+<<< Recorded commands on Fri Jul 21 2023 15:27:12 GMT-0300 (Horário Padrão de Brasília)
+I.click('.login')
+I.wait(5)
+I.click('#SubmitCreate')
+I.waitForText('Invalid email address.')
+
+<<< Recorded commands on Fri Jul 21 2023 15:35:47 GMT-0300 (Horário Padrão de Brasília)
+I.click('.login')
+I.wait(5)

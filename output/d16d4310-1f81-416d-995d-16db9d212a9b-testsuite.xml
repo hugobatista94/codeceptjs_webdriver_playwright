@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690133610286' stop='1690133651612'>
+    <name>Login:</name>
+    <title>Login:</title>
+    <test-cases>
+        <test-case start='1690133610308' status='passed' stop='1690133623111'>
+            <name>validate Empety E-mail On Create Account</name>
+            <title>validate Empety E-mail On Create Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1690133610532' status='passed' stop='1690133615887'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133615892' status='passed' stop='1690133617196'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133617196' status='passed' stop='1690133622214'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133622214' status='passed' stop='1690133622569'>
+                    <name>I click "#SubmitCreate"</name>
+                    <title>I click "#SubmitCreate"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133622570' status='passed' stop='1690133623108'>
+                    <name>I wait for text "Invalid email address."</name>
+                    <title>I wait for text "Invalid email address."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1690133623185' status='passed' stop='1690133636874'>
+            <name>validate Empety E-mail On Create Account 2</name>
+            <title>validate Empety E-mail On Create Account 2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1690133623835' status='passed' stop='1690133629980'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133629988' status='passed' stop='1690133631171'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133631172' status='passed' stop='1690133636182'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133636182' status='passed' stop='1690133636568'>
+                    <name>I click "#SubmitCreate"</name>
+                    <title>I click "#SubmitCreate"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133636569' status='passed' stop='1690133636874'>
+                    <name>I wait for text "Invalid email address."</name>
+                    <title>I wait for text "Invalid email address."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1690133636943' status='passed' stop='1690133651540'>
+            <name>validate Empety E-mail On Create Account 3</name>
+            <title>validate Empety E-mail On Create Account 3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1690133638058' status='passed' stop='1690133644223'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133644228' status='passed' stop='1690133645649'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133645649' status='passed' stop='1690133650662'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133650662' status='passed' stop='1690133650991'>
+                    <name>I click "#SubmitCreate"</name>
+                    <title>I click "#SubmitCreate"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133650991' status='passed' stop='1690133651538'>
+                    <name>I wait for text "Invalid email address."</name>
+                    <title>I wait for text "Invalid email address."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

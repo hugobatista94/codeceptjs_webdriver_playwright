@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690135904275' stop='1690135909274'>
+    <name>create user:</name>
+    <title>create user:</title>
+    <test-cases>
+        <test-case start='1690135907046' status='failed' stop='1690135908402'>
+            <name>Login With Success</name>
+            <title>Login With Success</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1690135907575' status='failed' stop='1690135907600'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690135907607' status='failed' stop='1690135907676'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I am on page "/"' source='fdb465c8-1bc9-474d-a3bb-852d7719b996-attachment.png' type='image/png' size='5320'/>
+                <attachment title='Main session - Last Seen Screenshot' source='b9b59190-aa6c-4194-9ac4-a688822cd003-attachment.png' type='image/png' size='5320'/>
+            </attachments>
+            <failure>
+                <message>page.goto: net::ERR_INTERNET_DISCONNECTED at http://www.automationpractice.pl/index.php
+                =========================== logs ===========================
+                navigating to "http://www.automationpractice.pl/index.php", waiting until "load"
+                ============================================================</message>
+                <stack-trace>page.goto: net::ERR_INTERNET_DISCONNECTED at http://www.automationpractice.pl/index.php
+                =========================== logs ===========================
+                navigating to "http://www.automationpractice.pl/index.php", waiting until "load"
+                ============================================================
+                    at Playwright.amOnPage (C:\Users\acer\Desktop\projetos-de-automacao\auto_codeceptjs_webdriver_playwright\node_modules\codeceptjs\lib\helper\Playwright.js:864:21)
+                    at Step.run (C:\Users\acer\Desktop\projetos-de-automacao\auto_codeceptjs_webdriver_playwright\node_modules\codeceptjs\lib\step.js:122:47)
+                    at C:\Users\acer\Desktop\projetos-de-automacao\auto_codeceptjs_webdriver_playwright\node_modules\codeceptjs\lib\actor.js:135:23</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1690135908447' status='failed' stop='1690135908879'>
+            <name>Create a New Account</name>
+            <title>Create a New Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1690135908847' status='failed' stop='1690135908875'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='0ee2c50b-cd49-4cdd-bc0c-5ebebb660fd0-attachment.png' type='image/png' size='5320'/>
+            </attachments>
+            <failure>
+                <message>page.goto: net::ERR_INTERNET_DISCONNECTED at http://www.automationpractice.pl/index.php
+                =========================== logs ===========================
+                navigating to "http://www.automationpractice.pl/index.php", waiting until "load"
+                ============================================================</message>
+                <stack-trace>page.goto: net::ERR_INTERNET_DISCONNECTED at http://www.automationpractice.pl/index.php
+                =========================== logs ===========================
+                navigating to "http://www.automationpractice.pl/index.php", waiting until "load"
+                ============================================================
+                    at Playwright.amOnPage (C:\Users\acer\Desktop\projetos-de-automacao\auto_codeceptjs_webdriver_playwright\node_modules\codeceptjs\lib\helper\Playwright.js:864:21)
+                    at Step.run (C:\Users\acer\Desktop\projetos-de-automacao\auto_codeceptjs_webdriver_playwright\node_modules\codeceptjs\lib\step.js:122:47)
+                    at C:\Users\acer\Desktop\projetos-de-automacao\auto_codeceptjs_webdriver_playwright\node_modules\codeceptjs\lib\actor.js:135:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

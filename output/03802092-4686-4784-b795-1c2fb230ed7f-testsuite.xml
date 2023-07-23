@@ -1,0 +1,228 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690068996292' stop='1690069032041'>
+    <name>create user:</name>
+    <title>create user:</title>
+    <test-cases>
+        <test-case start='1690068997704' status='passed' stop='1690069013657'>
+            <name>Login With Success</name>
+            <title>Login With Success</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1690068997990' status='passed' stop='1690068999345'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='e08dc73a-734f-47c9-99a4-d2bf54a745ae-attachment.png' type='image/png' size='11023'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1690068999345' status='passed' stop='1690068999440'>
+                    <name>I set cookie [{"name":"PrestaShop-2ae4d32f6206717abc31030c0cc08275","value":"fMQcpHD0y6I%3D0g1zLxdZXR8%3DdsDMsMlTCvk%3DH08qPCrk86w%3DV2yp%2BLfvm1E%3D4%2FYAspTMqAk%3DRMT6wdoS4uk%3D2i7n2hAoRy0%3D1%2FqtF5kz58Q%3DcQG%2BDSLQsKE%3DN61f1k2naME%3Dkv3UZedc4D8%3Dq0%2Fcl39gLnw%3DSVwOv41zVAY%3DuqGLTo8ifcY%3D000113","domain":".www.automationpractice.pl","path":"/","expires":1691795693.897472,"httpOnly":true,"secure":false,"sameSite":"Lax"}]</name>
+                    <title>I set cookie [{"name":"PrestaShop-2ae4d32f6206717abc31030c0cc08275","value":"fMQcpHD0y6I%3D0g1zLxdZXR8%3DdsDMsMlTCvk%3DH08qPCrk86w%3DV2yp%2BLfvm1E%3D4%2FYAspTMqAk%3DRMT6wdoS4uk%3D2i7n2hAoRy0%3D1%2FqtF5kz58Q%3DcQG%2BDSLQsKE%3DN61f1k2naME%3Dkv3UZedc4D8%3Dq0%2Fcl39gLnw%3DSVwOv41zVAY%3DuqGLTo8ifcY%3D000113","domain":".www.automationpractice.pl","path":"/","expires":1691795693.897472,"httpOnly":true,"secure":false,"sameSite":"Lax"}]</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I set cookie [{"name":"PrestaShop-2ae4d32f6206717abc31030c0cc08275","value":"fMQcpHD0y6I%3D0g1zLxdZXR8%3DdsDMsMlTCvk%3DH08qPCrk86w%3DV2yp%2BLfvm1E%3D4%2FYAspTMqAk%3DRMT6wdoS4uk%3D2i7n2hAoRy0%3D1%2FqtF5kz58Q%3DcQG%2BDSLQsKE%3DN61f1k2naME%3Dkv3UZedc4D8%3Dq0%2Fcl39gLnw%3DSVwOv41zVAY%3DuqGLTo8ifcY%3D000113","domain":".www.automationpractice.pl","path":"/","expires":1691795693.897472,"httpOnly":true,"secure":false,"sameSite":"Lax"}]' source='aa72ea46-a9d4-421b-ab42-fa4903515b26-attachment.png' type='image/png' size='11023'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1690068999440' status='passed' stop='1690069008283'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "http://www.automationpractice.pl/index.php"' source='cd16304e-a3b6-482c-8e55-1a624232d802-attachment.png' type='image/png' size='1953944'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1690069008283' status='failed' stop='1690069008306'>
+                    <name>I see "Hugo Batista"</name>
+                    <title>I see "Hugo Batista"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690069008309' status='passed' stop='1690069009986'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Hugo Batista"' source='ebe919bb-54e1-46ef-a24e-69db21e988d0-attachment.png' type='image/png' size='1847601'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1690069009986' status='passed' stop='1690069011145'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690069011145' status='passed' stop='1690069012102'>
+                    <name>I wait for element "#email", 10</name>
+                    <title>I wait for element "#email", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690069012103' status='passed' stop='1690069012607'>
+                    <name>I fill field "#email", "hugobb@gmail.com"</name>
+                    <title>I fill field "#email", "hugobb@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690069012608' status='passed' stop='1690069012901'>
+                    <name>I fill field "#passwd", *****</name>
+                    <title>I fill field "#passwd", *****</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690069012903' status='passed' stop='1690069013652'>
+                    <name>I click "#SubmitLogin"</name>
+                    <title>I click "#SubmitLogin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690069013653' status='passed' stop='1690069013655'>
+                    <name>I grab cookie </name>
+                    <title>I grab cookie </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1690069013702' status='passed' stop='1690069032029'>
+            <name>Create a New Account</name>
+            <title>Create a New Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1690069013939' status='passed' stop='1690069021670'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690069021671' status='passed' stop='1690069028414'>
+                    <name>home_page: accessLoginPage </name>
+                    <title>home_page: accessLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690069021671' status='passed' stop='1690069023410'>
+                            <name>I click ".login"</name>
+                            <title>I click ".login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069023410' status='passed' stop='1690069028413'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1690069028414' status='passed' stop='1690069029196'>
+                    <name>login_page: submitCreateNewAccount "Bernadette_Cormier2@yahoo.com"</name>
+                    <title>login_page: submitCreateNewAccount "Bernadette_Cormier2@yahoo.com"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690069028414' status='passed' stop='1690069029020'>
+                            <name>I fill field "#email_create", "Bernadette_Cormier2@yahoo.com"</name>
+                            <title>I fill field "#email_create", "Bernadette_Cormier2@yahoo.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069029020' status='passed' stop='1690069029195'>
+                            <name>I click "#SubmitCreate"</name>
+                            <title>I click "#SubmitCreate"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1690069029196' status='passed' stop='1690069032029'>
+                    <name>create_user_page: createUserWithSuccess "Edwin", "Wunsch"</name>
+                    <title>create_user_page: createUserWithSuccess "Edwin", "Wunsch"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690069029196' status='passed' stop='1690069030538'>
+                            <name>I wait for element "#customer_firstname", 10</name>
+                            <title>I wait for element "#customer_firstname", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069030538' status='passed' stop='1690069030550'>
+                            <name>I see "CREATE AN ACCOUNT"</name>
+                            <title>I see "CREATE AN ACCOUNT"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069030550' status='passed' stop='1690069030721'>
+                            <name>I click "#id_gender1"</name>
+                            <title>I click "#id_gender1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069030722' status='passed' stop='1690069030973'>
+                            <name>I fill field "#customer_firstname", "Edwin"</name>
+                            <title>I fill field "#customer_firstname", "Edwin"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069030973' status='passed' stop='1690069031212'>
+                            <name>I fill field "#customer_lastname", "Wunsch"</name>
+                            <title>I fill field "#customer_lastname", "Wunsch"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069031212' status='passed' stop='1690069031451'>
+                            <name>I fill field "#passwd", *****</name>
+                            <title>I fill field "#passwd", *****</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069031451' status='passed' stop='1690069031595'>
+                            <name>I select option "#days", "25"</name>
+                            <title>I select option "#days", "25"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069031595' status='passed' stop='1690069031722'>
+                            <name>I select option "#months", "3"</name>
+                            <title>I select option "#months", "3"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069031723' status='passed' stop='1690069031850'>
+                            <name>I select option "#years", "1994"</name>
+                            <title>I select option "#years", "1994"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069031851' status='passed' stop='1690069031853'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069031853' status='passed' stop='1690069032025'>
+                            <name>I click "#newsletter"</name>
+                            <title>I click "#newsletter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690069032025' status='passed' stop='1690069032029'>
+                            <name>I wait for text "Register"</name>
+                            <title>I wait for text "Register"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

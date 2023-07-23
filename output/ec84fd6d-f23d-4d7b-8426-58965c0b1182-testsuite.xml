@@ -1,0 +1,204 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690133129253' stop='1690133156062'>
+    <name>create user:</name>
+    <title>create user:</title>
+    <test-cases>
+        <test-case start='1690133130651' status='passed' stop='1690133139605'>
+            <name>Login With Success</name>
+            <title>Login With Success</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1690133130970' status='failed' stop='1690133130988'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133130996' status='passed' stop='1690133135846'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='a28ca6f7-95e1-4add-8810-3182ac4752e1-attachment.png' type='image/png' size='461453'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1690133135847' status='passed' stop='1690133137046'>
+                    <name>I click ".login"</name>
+                    <title>I click ".login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133137047' status='passed' stop='1690133137573'>
+                    <name>I wait for element "#email", 10</name>
+                    <title>I wait for element "#email", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133137573' status='passed' stop='1690133138297'>
+                    <name>I fill field "#email", "hugobb@gmail.com"</name>
+                    <title>I fill field "#email", "hugobb@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133138297' status='passed' stop='1690133138715'>
+                    <name>I fill field "#passwd", *****</name>
+                    <title>I fill field "#passwd", *****</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133138715' status='passed' stop='1690133139586'>
+                    <name>I click "#SubmitLogin"</name>
+                    <title>I click "#SubmitLogin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133139587' status='passed' stop='1690133139599'>
+                    <name>I grab cookie </name>
+                    <title>I grab cookie </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1690133139659' status='passed' stop='1690133156009'>
+            <name>Create a New Account</name>
+            <title>Create a New Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1690133139973' status='passed' stop='1690133145112'>
+                    <name>I am on page "http://www.automationpractice.pl/index.php"</name>
+                    <title>I am on page "http://www.automationpractice.pl/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1690133145115' status='passed' stop='1690133151352'>
+                    <name>home_page: accessLoginPage </name>
+                    <title>home_page: accessLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690133145115' status='passed' stop='1690133146328'>
+                            <name>I click ".login"</name>
+                            <title>I click ".login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133146329' status='passed' stop='1690133151351'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1690133151352' status='passed' stop='1690133152489'>
+                    <name>login_page: submitCreateNewAccount "Una64@hotmail.com"</name>
+                    <title>login_page: submitCreateNewAccount "Una64@hotmail.com"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690133151352' status='passed' stop='1690133152132'>
+                            <name>I fill field "#email_create", "Una64@hotmail.com"</name>
+                            <title>I fill field "#email_create", "Una64@hotmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133152133' status='passed' stop='1690133152489'>
+                            <name>I click "#SubmitCreate"</name>
+                            <title>I click "#SubmitCreate"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1690133152489' status='passed' stop='1690133156009'>
+                    <name>create_user_page: createUserWithSuccess "Heber", "Johns"</name>
+                    <title>create_user_page: createUserWithSuccess "Heber", "Johns"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1690133152489' status='passed' stop='1690133153457'>
+                            <name>I wait for element "#customer_firstname", 10</name>
+                            <title>I wait for element "#customer_firstname", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133153458' status='passed' stop='1690133153546'>
+                            <name>I see "CREATE AN ACCOUNT"</name>
+                            <title>I see "CREATE AN ACCOUNT"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133153548' status='passed' stop='1690133153788'>
+                            <name>I click "#id_gender1"</name>
+                            <title>I click "#id_gender1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133153788' status='passed' stop='1690133154224'>
+                            <name>I fill field "#customer_firstname", "Heber"</name>
+                            <title>I fill field "#customer_firstname", "Heber"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133154224' status='passed' stop='1690133154598'>
+                            <name>I fill field "#customer_lastname", "Johns"</name>
+                            <title>I fill field "#customer_lastname", "Johns"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133154599' status='passed' stop='1690133154987'>
+                            <name>I fill field "#passwd", *****</name>
+                            <title>I fill field "#passwd", *****</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133154988' status='passed' stop='1690133155220'>
+                            <name>I select option "#days", "25"</name>
+                            <title>I select option "#days", "25"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133155221' status='passed' stop='1690133155438'>
+                            <name>I select option "#months", "3"</name>
+                            <title>I select option "#months", "3"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133155439' status='passed' stop='1690133155670'>
+                            <name>I select option "#years", "1994"</name>
+                            <title>I select option "#years", "1994"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133155670' status='passed' stop='1690133155689'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133155689' status='passed' stop='1690133155983'>
+                            <name>I click "#newsletter"</name>
+                            <title>I click "#newsletter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1690133155983' status='passed' stop='1690133156009'>
+                            <name>I wait for text "Register"</name>
+                            <title>I wait for text "Register"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
