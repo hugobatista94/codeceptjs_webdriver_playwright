@@ -1,3 +1,4 @@
+
 # Automação de teste com Codeceptjs + webdriver/playwright
 
 ## Descrição do Projeto...
@@ -18,3 +19,4 @@ npx codeceptjs run --steps
 ```
 
 Autor: Hugo Batista
+E-mail:94HugoBatista@gmail.com
